@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@across-protocol/constants-v2": "^1.0.4",
-    "@defi-wonderland/smock": "^2.3.4",
+    "@defi-wonderland/smock": "^2.4.0",
     "@eth-optimism/contracts": "^0.5.40",
     "@ethersproject/abstract-provider": "5.7.0",
     "@ethersproject/abstract-signer": "5.7.0",
@@ -46,7 +46,7 @@
     "@uma/common": "^2.34.0",
     "@uma/contracts-node": "^0.4.17",
     "@uma/core": "^2.56.0",
-    "axios": "^1.6.2",
+    "axios": "^1.6.8",
     "zksync-web3": "^0.14.3"
   },
   "devDependencies": {
