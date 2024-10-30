@@ -2150,6 +2150,11 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.9.3.tgz#00d7a8cf35a475b160b3f0293a6403c511099364"
   integrity sha512-He3LieZ1pP2TNt5JbkPA4PNT9WC3gOTOlDcFGJW4Le4QKqwmiNJCRt44APfxMxvq7OugU/cqYuPcSBzOw38DAg==
 
+"@openzeppelin/contracts@4.9.6":
+  version "4.9.6"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.9.6.tgz#2a880a24eb19b4f8b25adc2a5095f2aa27f39677"
+  integrity sha512-xSmezSupL+y9VkHZJGDoCBpmnB2ogM13ccaYDWqJTfS3dbuHkgjuwDFUmaFauBCboQMGB/S5UqUl2y54X99BmA==
+
 "@openzeppelin/hardhat-upgrades@^1.22.0":
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/@openzeppelin/hardhat-upgrades/-/hardhat-upgrades-1.22.0.tgz#2a432c72a428a9f277201646bc1a248021538f06"
@@ -3076,12 +3081,53 @@
     web3 "^1.6.0"
     winston "^3.2.1"
 
+"@uma/common@^2.37.3":
+  version "2.37.3"
+  resolved "https://registry.yarnpkg.com/@uma/common/-/common-2.37.3.tgz#0d7fda1227e3a05563544bb36f418a790c81129d"
+  integrity sha512-DLcM2xtiFWDbty21r2gsL6AJbOc8G/CMqg0iMxssvkKbz8varsWS44zJF85XGxMlY8fE40w0ZS8MR92xpbsu4g==
+  dependencies:
+    "@across-protocol/contracts" "^0.1.4"
+    "@ethersproject/address" "^5.7.0"
+    "@ethersproject/bignumber" "^5.0.5"
+    "@ethersproject/bytes" "^5.7.0"
+    "@ethersproject/constants" "^5.7.0"
+    "@google-cloud/kms" "^3.0.1"
+    "@google-cloud/storage" "^6.4.2"
+    "@nomicfoundation/hardhat-verify" "^1.0.4"
+    "@nomiclabs/hardhat-ethers" "^2.2.1"
+    "@nomiclabs/hardhat-web3" "^2.0.0"
+    "@truffle/contract" "4.6.17"
+    "@truffle/hdwallet-provider" eip1559-beta
+    "@types/ethereum-protocol" "^1.0.0"
+    "@uniswap/v3-core" "^1.0.0-rc.2"
+    abi-decoder "github:UMAprotocol/abi-decoder"
+    async-retry "^1.3.3"
+    axios "^1.6.1"
+    bignumber.js "^8.0.1"
+    chalk-pipe "^3.0.0"
+    decimal.js "^10.2.1"
+    dotenv "^9.0.0"
+    eth-crypto "^2.4.0"
+    hardhat-deploy "0.9.1"
+    hardhat-gas-reporter "^1.0.4"
+    hardhat-typechain "^0.3.5"
+    lodash.uniqby "^4.7.0"
+    minimist "^1.2.0"
+    moment "^2.24.0"
+    node-fetch "^2.6.0"
+    node-metamask "github:UMAprotocol/node-metamask"
+    require-context "^1.1.0"
+    solidity-coverage "^0.7.13"
+    truffle-deploy-registry "^0.5.1"
+    web3 "^1.6.0"
+    winston "^3.2.1"
+
 "@uma/contracts-node@^0.4.0", "@uma/contracts-node@^0.4.17":
   version "0.4.17"
   resolved "https://registry.yarnpkg.com/@uma/contracts-node/-/contracts-node-0.4.17.tgz#6abd815723c8344017eb5c302f6a5b0b690eeb4e"
   integrity sha512-e7cVJr3yhKrPZn1TAo/CCOt+QacJON6Mj71lcwHq/rnx+tgjujK2MsOhihytmb79ejPTKg1b5+2GIDL02ttrrQ==
 
-"@uma/core@^2.18.0", "@uma/core@^2.56.0":
+"@uma/core@^2.18.0":
   version "2.56.0"
   resolved "https://registry.yarnpkg.com/@uma/core/-/core-2.56.0.tgz#c19aa427f08691a85e99ec523d23abf359a6b0c3"
   integrity sha512-unylWwHeD/1mYcj1t2UPVgj1V+ceBLSo/BcYKgZyyBIHYAkC6bOx4egV/2NrhWPt3sX5CZFG1I1kMAqgp245tQ==
@@ -3092,6 +3138,22 @@
     "@openzeppelin/contracts" "4.4.2"
     "@uma/common" "^2.34.0"
     "@uma/merkle-distributor" "^1.3.38"
+    "@uniswap/lib" "4.0.1-alpha"
+    "@uniswap/v2-core" "1.0.0"
+    "@uniswap/v2-periphery" "1.1.0-beta.0"
+    "@uniswap/v3-core" "^1.0.0-rc.2"
+    "@uniswap/v3-periphery" "^1.0.0-beta.23"
+
+"@uma/core@^2.61.0":
+  version "2.61.0"
+  resolved "https://registry.yarnpkg.com/@uma/core/-/core-2.61.0.tgz#29580736349a47af8fb10beb4bb3b50bfcf912f5"
+  integrity sha512-bnk+CWW+uWpRilrgUny/gDXHKomG+h1Ug84OXdx+AAvj1/BtlMDOCNNt1OX8LSAz+a0hkiN9s24/zgHclTC/sg==
+  dependencies:
+    "@gnosis.pm/safe-contracts" "^1.3.0"
+    "@gnosis.pm/zodiac" "3.2.0"
+    "@maticnetwork/fx-portal" "^1.0.4"
+    "@openzeppelin/contracts" "4.9.6"
+    "@uma/common" "^2.37.3"
     "@uniswap/lib" "4.0.1-alpha"
     "@uniswap/v2-core" "1.0.0"
     "@uniswap/v2-periphery" "1.1.0-beta.0"
@@ -3793,6 +3855,15 @@ axios@^1.4.0:
   integrity sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==
   dependencies:
     follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
+axios@^1.6.1:
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
+  integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
+  dependencies:
+    follow-redirects "^1.15.6"
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
@@ -7947,6 +8018,11 @@ follow-redirects@^1.12.1, follow-redirects@^1.14.0, follow-redirects@^1.15.0:
   version "1.15.4"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.4.tgz#cdc7d308bf6493126b17ea2191ea0ccf3e535adf"
   integrity sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==
+
+follow-redirects@^1.15.6:
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
+  integrity sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==
 
 for-each@^0.3.3, for-each@~0.3.3:
   version "0.3.3"
