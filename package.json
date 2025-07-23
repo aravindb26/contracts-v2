@@ -45,7 +45,7 @@
     "@scroll-tech/contracts": "^0.1.0",
     "@uma/common": "^2.34.0",
     "@uma/contracts-node": "^0.4.17",
-    "@uma/core": "^2.56.0",
+    "@uma/core": "^2.61.0",
     "axios": "^1.6.2",
     "zksync-web3": "^0.14.3"
   },
